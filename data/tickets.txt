@@ -1,0 +1,1 @@
+id|ticket_number|user_id|show_id|seat_number|payment_method|payment_account|transaction_number|status

@@ -1,0 +1,99 @@
+splash.txt
+ __      __         .__                                  ._.._.._.
+/  \    /  \  ____  |  |    ____   ____    _____    ____ | || || |
+\   \/\/   /_/ __ \ |  |  _/ ___\ /  _ \  /     \ _/ __ \| || || |
+ \        / \  ___/ |  |__\  \___(  <_> )|  Y Y  \\  ___/ \| \| \|
+  \__/\  /   \___  >|____/ \___  >\____/ |__|_|  / \___  >__ __ __
+       \/        \/            \/              \/      \/ \/ \/ \/
+~
+  ________          __
+ /  _____/   ____ _/  |_
+/   \  ___ _/ __ \\   __\
+\    \_\  \\  ___/ |  |
+ \______  / \___  >|__|
+        \/      \/
+~
+ ___.__.  ____   __ __ _______
+<   |  | /  _ \ |  |  \\_  __ \
+ \___  |(  <_> )|  |  / |  | \/
+ / ____| \____/ |____/  |__|
+ \/
+~
+  __   .__          __             __
+_/  |_ |__|  ____  |  | __  ____ _/  |_
+\   __\|  |_/ ___\ |  |/ /_/ __ \\   __\
+ |  |  |  |\  \___ |    < \  ___/ |  |
+ |__|  |__| \___  >|__|_ \ \___  >|__|
+                \/      \/     \/
+~
+        ._. _______   ________   __      __ ._.
+        | | \      \  \_____  \ /  \    /  \| |
+  ______| | /   |   \  /   |   \\   \/\/   /| | ______
+ /_____/ \|/    |    \/    |    \\        /  \|/_____/
+         __\____|__  /\_______  / \__/\  /   __
+         \/        \/         \/       \/    \/
+~
+     ;
+     ;;
+     ;';.
+     ;  ;;
+     ;   ;;
+     ;    ;;
+     ;    ;;
+     ;   ;'
+     ;  '
+,;;;,;
+;;;;;;
+`;;;;'
+
+
+users.txt
+id|username|password
+
+
+shows.txt
+id|singer|date|venue|type|price|seats|booked
+0|Arnob|12,09,2022|Shilpakala Academy|Folk|80|30|
+1|Momtaz|25,06,2024|Jatiya Rabindra Sangeet Sammelan|Folk|85|30|
+2|Habib Wahid|02,06,2023|BICC|Pop|95|30|
+3|Ayub Bachchu|19,12,2023|International Convention City Bashundhara (ICCB)|Rock|100|30|
+4|James|20,02,2023|Bangabandhu International Conference Center (BICC)|Pop Rock|90|30|
+5|Shreya Ghoshal|19,06,2023|Bangabandhu International Conference Center (BICC)|Indian Classical|120|30|
+6|Arijit Singh|14,06,2024|Bangabandhu National Stadium|Bollywood|110|30|
+7|Artcell|06,11,2022|Shilpakala Academy|Progressive Rock|95|30|
+8|Milon Mahmood|19,03,2024|International Convention City Bashundhara (ICCB)|Folk|80|30|
+9|Nancy|03,12,2023|Jatiya Rabindra Sangeet Sammelan|Pop|90|30|
+10|Bappa Mazumder|05,07,2022|Bangabandhu International Conference Center (BICC)|Soft Rock|85|30|
+11|Asif Akbar|26,09,2022|Bangabandhu National Stadium|Pop|95|30|
+12|Tahsan|19,06,2023|Shilpakala Academy|Pop|90|30|
+13|Minar Rahman|01,06,2024|International Convention City Bashundhara (ICCB)|Pop|85|30|
+14|Samina Chowdhury|19,08,2023|Jatiya Rabindra Sangeet Sammelan|Nazrul Geeti|100|30|
+15|Topu|19,02,2024|Bangabandhu International Conference Center (BICC)|Pop|90|30|
+16|Fuad Al Muqtadir|19,09,2024|Bangabandhu National Stadium|Pop|95|30|
+17|Anupam Roy|19,01,2023|Shilpakala Academy|Modern|80|30|
+18|Fahmida Nabi|19,07,2024|International Convention City Bashundhara (ICCB)|Adhunik|85|30|
+19|Fakir Alamgir|19,05,2022|Jatiya Rabindra Sangeet Sammelan|Folk|90|30|
+20|Kumar Sanu|19,12,2024|Bangabandhu International Conference Center (BICC)|Bollywood|100|30|
+21|Alka Yagnik|19,01,2023|Bangabandhu National Stadium|Bollywood|95|30|
+22|Shaan|19,04,2023|Shilpakala Academy|Bollywood|90|30|
+23|Atif Aslam|19,06,2022|International Convention City Bashundhara (ICCB)|Pop|85|30|
+24|Sonu Nigam|19,09,2023|Jatiya Rabindra Sangeet Sammelan|Bollywood|95|30|
+25|Neha Kakkar|19,03,2023|Bangabandhu International Conference Center (BICC)|Pop|90|30|
+26|Jon Kabir|19,02,2023|Bangabandhu National Stadium|Pop|85|30|
+27|Nemesis|19,01,2023|Shilpakala Academy|Alternative Rock|95|30|
+28|Chirkutt|19,03,2023|International Convention City Bashundhara (ICCB)|Folk Rock|90|30|
+29|Yaatri|19,05,2023|Jatiya Rabindra Sangeet Sammelan|Indie|80|30|
+30|Armin van Buuren|19,09,2023|Bangabandhu International Conference Center (BICC)|Trance|120|30|
+31|Martin Garrix|19,12,2023|Bangabandhu National Stadium|EDM|110|30|
+32|Marshmello|19,07,2023|Shilpakala Academy|EDM|100|30|
+33|Linkin Park|19,06,2023|International Convention City Bashundhara (ICCB)|Rock|95|30|
+34|Ed Sheeran|19,01,2023|Bangabandhu International Conference Center (BICC)|Pop|100|30|
+35|Taylor Swift|19,03,2023|Bangabandhu National Stadium|Pop|95|30|
+36|Adele|19,05,2023|Shilpakala Academy|Pop|90|30|
+37|Justin Bieber|19,09,2023|International Convention City Bashundhara (ICCB)|Pop|85|30|
+38|Bruno Mars|19,11,2023|Jatiya Rabindra Sangeet Sammelan|Pop|80|30|
+39|Ariana Grande|19,02,2023|Bangabandhu International Conference Center (BICC)|Pop|95|30|
+
+
+tickets.txt
+id|ticket_number|user_id|show_id|seat_number|payment_method|payment_account|transaction_number|status
