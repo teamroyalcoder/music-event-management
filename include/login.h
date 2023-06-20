@@ -8,15 +8,6 @@
 #define MAX_LENGTH 500
 
 /**
- * Structure to hold user information.
- */
-typedef struct {
-	int id;
-	char username[MAX_LENGTH];
-	char password[MAX_LENGTH];
-} User;
-
-/**
  * Registers a new user.
  *
  * @param users Array of users.

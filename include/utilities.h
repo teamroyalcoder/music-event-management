@@ -10,32 +10,6 @@
 #define MAX_LENGTH 500
 
 /**
- * @brief Struct representing a show
- */
-typedef struct {
-	int id;
-	char singer[MAX_LENGTH];
-	char date[MAX_LENGTH];
-	char venue[MAX_LENGTH];
-	char type[MAX_LENGTH];
-	int price;
-	int seats;
-	char booked[MAX_LENGTH];
-} Show;
-
-typedef struct {
-	int id;
-	char ticketNumber[MAX_LENGTH];
-	int userId;
-	int showId;
-	int seatNumber;
-	char paymentMethod[MAX_LENGTH];
-	char paymentAccount[MAX_LENGTH];
-	char transactionNumber[MAX_LENGTH];
-	int status;
-} Ticket;
-
-/**
  * @brief Function to disable terminal echo
  */
 void disableEcho();
@@ -44,6 +18,7 @@ void disableEcho();
  * @brief Function to enable terminal echo
  */
 void enableEcho();
+
 /**
  * @brief View upcoming shows and their available seats.
  *
@@ -55,9 +30,10 @@ void enableEcho();
  * @param viewContent A flag indicating whether to display the show details.
  * @param hasSelect A flag indicating whether to allow show selection.
  * @param hasMenu A flag indicating whether to display a menu.
+ * @param forBooking A flag indicating whether it is for booking purpose
  * @return The selected show ID if `hasSelect` is true and a show is selected, otherwise -1.
  */
-int viewUpcomingShows( const char* filename, int userId, bool viewContent, bool hasSelect, bool hasMenu );
+int viewUpcomingShows( const char* filename, int userId, bool viewContent, bool hasSelect, bool hasMenu, bool forBooking );
 
 /**
  * @brief Count the number of booked seats.
@@ -170,15 +146,47 @@ void generateTransactionNumber( char* transactionNumber, size_t size );
 int getShowDateById( const Show shows[], int showId, char* showDate );
 
 /**
- * @brief Converts a date string from the format "day,month,year" to "day month, year".
+ * @brief Converts a time string from the format "hh:mm" to "hh:mm am/pm (BST)".
  *
- * This function takes an input date string in the format "day,month,year" and converts it
- * to the format "day month, year". The converted date is stored in the output buffer.
+ * This function takes an input time string in the format "hh:mm" and converts it
+ * to the format "hh:mm am/pm (BST)". The converted time is returned as a dynamically
+ * allocated string.
  *
- * @param[out] inputDate The input date string in the format "day,month,year".
- * @param[out] outputDate The output buffer to store the converted date.
- * @param[in] outputSize The size of the output buffer.
+ * @param time_str The input time string in the format "hh:mm".
+ * @return A dynamically allocated string representing the converted time in the format "hh:mm am/pm (BST)".
  */
-void convertDate( const char* inputDate, char* outputDate, int outputSize );
+char* convertTime(const char* time_str);
+
+/**
+ * @brief Extracts the time from a date string and returns it in a 12-hour format with AM/PM indicator and "BST" time zone.
+ *
+ * This function takes an input date string in the format "dd,mm,yyyy,hh:mm" and extracts the time part.
+ * The extracted time is converted to a 12-hour format with AM/PM indicator and "BST" time zone.
+ * The converted time is returned as a dynamically allocated string.
+ *
+ * @param date_str The input date string in the format "dd,mm,yyyy,hh:mm".
+ * @return A dynamically allocated string representing the converted time in the format "hh:mm am/pm (BST)".
+ */
+char* extractTimeAndConvert(const char* date_str);
+
+/**
+ * @brief Converts a date string from the format "dd,mm,yyyy,hh:mm" to "dd full_month_name, yyyy".
+ *
+ * This function takes an input date string in the format "dd,mm,yyyy,hh:mm" and converts it
+ * to the format "dd full_month_name, yyyy". The converted date is returned as a dynamically
+ * allocated string.
+ *
+ * @param date_str The input date string in the format "dd,mm,yyyy,hh:mm".
+ * @return A dynamically allocated string representing the converted date in the format "dd full_month_name, yyyy".
+ */
+char* convertDate(const char* date_str);
+
+/**
+ * @brief Calculates the remaining or elapsed time from a given date and time string.
+ *
+ * @param date_str The date and time string in the format "dd,mm,yyyy,hh:mm".
+ * @return A dynamically allocated string representing the remaining or elapsed time.
+ */
+char* calculate_remaining_time(const char* date_str);
 
 #endif // UTILITIES_H
