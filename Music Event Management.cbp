@@ -2,9 +2,41 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="Music Ticket Management" />
+		<Option title="Music Event Management" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
+		<Option extended_obj_names="1" />
+		<Option show_notes="1">
+			<notes>
+				<![CDATA[Project Details:
+
+
+
+
+Music Event Management
+
+
+
+This project is a music event management system developed in C. It provides functionalities for user registration, login, dynamic menu, ticket purchase, ticket management, ticket cancellation, ticket updates, view upcoming shows, view available seats, and user information updates.
+
+
+
+The project uses a text file as a database. It features a splash screen at startup and aims to provide various functionalities and flexibility to end-users. It also includes an admin user who can manage events and has full access rights.
+
+
+
+Please note that this project is for personal practice and learning purposes. It is not intended for production use.
+
+
+
+For instructions on building and running the application, please refer to the code::blocks workspace file named "trc.workspace" and select the "main.c" file. Build and run the application from within Code::Blocks.
+
+
+
+For more information, please check the README file in the repository.
+]]>
+			</notes>
+		</Option>
 		<Build>
 			<Target title="Debug">
 				<Option output="bin/Debug/Music Ticket Management" prefix_auto="1" extension_auto="1" />
@@ -13,6 +45,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -43,6 +76,11 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="misc/rm_rf_exts.bat" />
+		<Unit filename="misc/rm_rf_exts.cmd" />
+		<Unit filename="misc/rm_rf_exts.js" />
+		<Unit filename="misc/rm_rf_exts.py" />
+		<Unit filename="misc/rm_rf_exts.sh" />
 		<Unit filename="src/login.c">
 			<Option compilerVar="CC" />
 		</Unit>
