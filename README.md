@@ -1,24 +1,24 @@
-# Music Event Management Project
+# 🎵 Music Event Management Project
 
 This repository contains a music event management project, designed to facilitate the management and organization of music event tickets. The project provides a comprehensive solution for managing tickets, including user registration, login, dynamic menu, ticket purchase, ticket management, ticket cancellation, ticket updates, viewing upcoming shows, viewing available seats, and updating user information. The project utilizes a text file-based database system for data storage.
 
-## Project Description
+## Project Description 📝
 
 The music event management project offers a wide range of functionality to enhance the ticket management experience. Some of the key features include:
 
-- User registration and login system.
-- Dynamic menu system for easy navigation.
-- Ticket purchase, management, cancellation, and updates.
-- Ability to view upcoming shows and available seats.
-- User information management and updates.
+- User registration and login system 👥
+- Dynamic menu system for easy navigation 📋
+- Ticket purchase, management, cancellation, and updates 🎫
+- Ability to view upcoming shows and available seats 🎟️
+- User information management and updates 📄
 
-## Upcoming Features
+## Upcoming Features 🔜
 
-- [ ] Integration of QR code functionality for tickets.
+- [ ] Integration of QR code functionality for tickets 📱
 
-Please note that the upcoming features listed above are currently in development and will be added to the project in future updates. Stay tuned for more updates and enhancements!
+Please note that the upcoming features listed above are currently in development and will be added to the project in future updates. Stay tuned for more updates and enhancements! 🚀
 
-## Usage
+## Usage 🚀
 
 To run the main music event management project, follow the instructions below:
 
@@ -26,11 +26,11 @@ To run the main music event management project, follow the instructions below:
 2. Select the `main.c` file within the workspace.
 3. Build and run the application using the Code::Blocks IDE.
 
-## Misc Tools
+## Misc Tools 🛠️
 
 The "misc" folder in this repository contains additional tools that can be used for various purposes. These tools are separate from the main music event management project and can be explored and utilized independently. Below are the available tools:
 
-1. **File Deletion Tool**
+1. **File Deletion Tool 🗑️**
 
    The file deletion tool allows you to delete files with specific extensions, ending words, or characters recursively within the specified root directory. This tool was primarily created to address the inconvenience of auto-generated `.save` files in the Code::Blocks IDE, which cluttered the project folders. It has been modified to provide more flexibility and cross-platform support.
 
@@ -52,30 +52,30 @@ The "misc" folder in this repository contains additional tools that can be used 
 
    - To delete `.save` files in the project root folder:
 
-     ```
-     ./misc/rm_rf_exts.sh
-     Root directory: ../
-     File extensions to delete: (Press Enter)
+     ```console
+     $ ./misc/rm_rf_exts.sh
+	 Enter root directory [./]: ../
+	 Enter file extensions (comma-separated) [.save]: (press enter)
      ```
 
    - To delete `.txt` and `.csv` files in a specific directory:
-     ```
-     ./misc/rm_rf_exts.sh
-     Root directory: /path/to/directory
-     File extensions to delete: .txt,.csv
+     ```console
+     $ ./misc/rm_rf_exts.sh
+	 Enter root directory [./]: /path/to/directory
+	 Enter file extensions (comma-separated) [.save]: .txt,.csv
      ```
 
    **Warning:** Exercise caution when using the file deletion tool, as it permanently deletes files from the specified directory and its subdirectories. Double-check the directory and file extensions before proceeding.
 
 Please note that the "misc" folder may contain additional tools in the future, catering to various development needs and enhancing the usability of the repository.
 
-## Feedback
+## Feedback 📢
 
 We welcome any feedback or suggestions to enhance the functionality and usability of this project. If you encounter any issues or have ideas for improvement, please submit them through the provided channels.
 
 Feel free to explore the various features and functionalities of this project. Should you have any questions or require assistance, please refer to the project documentation or reach out to the project maintainers.
 
-## Contributing
+## Contributing 🤝
 
 Contributions to this project are not allowed. The project is intended for personal practice and learning purposes, and as such, external contributions are not accepted at this time. You are welcome to use the project for your own personal use, but please refrain from submitting pull requests or making modifications to the codebase.
 
@@ -83,7 +83,7 @@ If you have any suggestions, feedback, or bug reports, you can open an issue in 
 
 Thank you for your understanding.
 
-## Manual License
+## Manual License 📜
 
 This repository and project can be used by anyone with their own responsibility. No author credit is required, but it is appreciated if you mention the original author, Asaduzzaman Atik. Contributions are not allowed as this repository is intended for personal practice and learning purposes.
 
