@@ -64,12 +64,14 @@ For more information, please check the README file in the repository.
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="data/menu.txt" />
 		<Unit filename="data/reset.txt" />
 		<Unit filename="data/shows.txt" />
 		<Unit filename="data/splash.txt" />
 		<Unit filename="data/tickets.txt" />
 		<Unit filename="data/users.txt" />
 		<Unit filename="include/login.h" />
+		<Unit filename="include/management.h" />
 		<Unit filename="include/menu.h" />
 		<Unit filename="include/splash.h" />
 		<Unit filename="include/utilities.h" />
@@ -82,6 +84,9 @@ For more information, please check the README file in the repository.
 		<Unit filename="misc/rm_rf_exts.py" />
 		<Unit filename="misc/rm_rf_exts.sh" />
 		<Unit filename="src/login.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/management.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src/menu.c">

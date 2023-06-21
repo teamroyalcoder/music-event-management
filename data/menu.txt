@@ -1,0 +1,29 @@
+id|label|action|order|parent|scope|depends
+0|Login|user_login|0|null|u,e,m,a|null
+1|Register|user_registration|1|null|u,e,m,a|null
+2|View show|shows_view|0|0|u,e,m,a|null
+3|Available seat|available_seats|1|0|u,e,m,a|null
+4|Buy ticket|tickets_buy|2|0|u,e,m,a|null
+5|Manage ticket|tickets_manage|3|0|u,e,m,a|null
+6|Admin panel|panel_admin|4|0|a|null
+7|Moderator panel|panel_mod|4|0|m|null
+8|Editor panel|panel_ed|4|0|e|null
+9|Account|account_manage|5|0|u,e,m,a|null
+10|Upcoming show|shows_upcoming|0|2|u,e,m,a|null
+11|Cancelled show|shows_cancelled|1|2|u,e,m,a|null
+12|Previous show|shows_previous|2|2|u,e,m,a|null
+13|Start over|tickets_buy|0|4|u,e,m,a|cancelled
+14|View ticket|tickets_view|0|5|u,e,m,a|null
+15|Cancel ticket [NO REFUND]|tickets_cancel|1|5|u,e,m,a|null
+16|Wallet|wallet|0|6|u,e,m,a|null
+17|Payment method|payment_methods|1|6|u,e,m,a|null
+18|Default payment method|payment_method_set_default|2|6|u,e,m,a|null
+19|User information|user_info|3|6|u,e,m,a|null
+20|Update user information|user_info_update|0|19|u,e,m,a|null
+21|View payment method|payment_methods_view|0|17|u,e,m,a|null
+22|Add a payment method|payment_method_add|1|17|u,e,m,a|null
+23|Remove a payment method|payment_method_remove|2|17|u,e,m,a|null
+24|Manage show|shows_manage|0,0,0|6,7,8|e,m,a|null
+25|Manage user|users_manage|1|6|a|null
+26|View stats|stats_view|2|6|a|null
+27|
